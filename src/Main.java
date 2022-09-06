@@ -1,6 +1,8 @@
 import javax.swing.*;
 import java.awt.*;
 
+
+
 public class Main extends  JPanel {  // JPanel это, как html (по сути в ней хранится, весь интерфейс // )
     final int BF_WIDTH = 576;  // BF_WIDTH - ширинаПолеБоя
     final int BF_HEIGHT = 576;  // BF_HEIGHT - высотаПолеБоя
