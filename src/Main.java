@@ -35,35 +35,7 @@ public class Main extends  JPanel {  // JPanel это, как html (по сут�
         }
 
      }
-    void moveUp () throws Exception {
-        direction = 1; // направлене при движениии
-        while (y != BF_HEIGHT + 64) {// != неравно
-            y--;
-            Thread.sleep(10); //задержка
-            repaint();  // функция JPanel, которая перерисовывает панель ( без данной функциии движение танка с задержкй толкь  на расширении окна реагиурет)
-        }
-    }
-    void moveDown () throws Exception {
-        direction = 2;
-        while (y != BF_HEIGHT-64) {
-            y++;
-            Thread.sleep(10);
-            repaint();
-        }}
-    void moveLeft () throws Exception {
-        direction = 3;
-        while (x != BF_WIDTH-64) {
-            x--;
-            Thread.sleep(10);
-            repaint();
-        }}
-     void moveRight () throws Exception {
-        direction = 4;
-        while (x != BF_WIDTH - 64) {
-            x++;
-            Thread.sleep(10);
-            repaint();
-        }}
+
 
       public static void main (String[] args) throws Exception {
         Main main = new Main();
